@@ -1,0 +1,104 @@
+/* 1. SETUP COLORS AND FONTS */
+:root {
+    --primary-orange: #FF6B35;   /* Warm, appetizing orange */
+    --cream-bg: #FFF8F0;         /* Cozy cream background */
+    --dark-brown: #2D1B12;       /* Dark brown for text and navbar */
+    --white: #FFFFFF;
+}
+
+/* 2. GENERAL PAGE STYLES */
+body {
+    background-color: var(--cream-bg);
+    color: var(--dark-brown);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* 3. NAVIGATION BAR STYLING */
+nav {
+    background-color: var(--dark-brown);
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--primary-orange);
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: var(--white);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: var(--primary-orange);
+}
+
+/* 4. HERO SECTION STYLING */
+#home {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: var(--dark-brown);
+    color: var(--white);
+}
+
+#home h1 {
+    font-size: 36px;
+    color: var(--primary-orange);
+    margin-bottom: 10px;
+}
+
+/* 5. BUTTON STYLING */
+button {
+    background-color: var(--primary-orange);
+    color: var(--white);
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e0531f; /* A slightly darker orange when you hover */
+}
+
+/* 6. CONTENT SECTIONS */
+section {
+    padding: 60px 30px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h2 {
+    color: var(--primary-orange);
+    border-bottom: 2px solid var(--dark-brown);
+    padding-bottom: 10px;
+}
+
+/* 7. FOOTER STYLING */
+footer {
+    text-align: center;
+    background-color: var(--dark-brown);
+    color: var(--white);
+    padding: 20px;
+    margin-top: 40px;
+}
